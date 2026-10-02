@@ -1,0 +1,39 @@
+USER
+  │
+  ▼
+STREAMLIT UI
+  │
+  ├── Upload PDF(s)
+  │
+  ▼
+PDF TEXT EXTRACTION
+(PyMuPDF / fitz)
+  │
+  ▼
+TEXT CHUNKING
+(1800 chars / 200 overlap)
+  │
+  ▼
+TF-IDF VECTORIZATION
+  │
+  ├───────────────┐
+  │               │
+  ▼               ▼
+SUMMARY        USER QUERY
+  │               │
+  │               ▼
+  │        COSINE SIMILARITY
+  │               │
+  │               ▼
+  │        TOP RELEVANT CHUNKS
+  │               │
+  └───────┬───────┘
+          ▼
+     OPENROUTER LLM
+          │
+          ▼
+  GROUNDED RESPONSE
+          │
+          ├── Answer / Summary
+          │
+          └── Document + Page Evidence
