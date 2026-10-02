@@ -979,7 +979,7 @@ DOCUMENT CONTENT:
 
                             "temperature": 0.1,
 
-                            "max_tokens": 2000,
+                            "max_tokens": 4000,
 
                             "reasoning": {
                                 "exclude": True
@@ -1242,7 +1242,7 @@ DOCUMENT CONTEXT:
 
                                 "temperature": 0.1,
 
-                                "max_tokens": 2000,
+                                "max_tokens": 4000,
 
                                 "reasoning": {
                                     "exclude": True
