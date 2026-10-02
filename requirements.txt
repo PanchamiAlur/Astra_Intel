@@ -1,0 +1,6 @@
+streamlit 
+pymupdf
+scikit-learn 
+openrouterai
+requests
+python
