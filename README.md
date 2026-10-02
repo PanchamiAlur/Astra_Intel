@@ -618,3 +618,7 @@ Conclusion
  Upload → Extract → Retrieve → Summarize → Ask → Answer → Show Evidence
 
  The architecture is intentionally lightweight and can be extended with semantic retrieval, vector databases, OCR, and more advanced document-processing capabilities in future versions.
+
+
+video link drive 
+https://drive.google.com/file/d/1KsgniukYfje8_zuJ1n_nzLRAFDPDm4P5/view?usp=sharing
